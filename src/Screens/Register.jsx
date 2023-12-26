@@ -1,6 +1,6 @@
 import React from "react";
-import { Link, BrowserRouter } from "react-router-dom";
-import Login from "../Screens/Login.jsx";
+import { Link } from "react-router-dom";
+
 
 const Register = () => {
   return (
