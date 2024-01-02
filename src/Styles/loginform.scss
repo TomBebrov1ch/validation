@@ -1,0 +1,82 @@
+@import "../Styles/variables.scss";
+
+body {
+  background-color: $back;
+}
+
+.conatiner {
+  display: flex;
+  justify-content: center;
+}
+
+.container__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  color: $white;
+  margin-bottom: clamp(50px, 5.208vw, 200px);
+  font-size: clamp(15px, 1.5624vw, 60px);
+}
+
+.container__text__input {
+  background-color: $forms;
+  border: none;
+  border-radius: clamp(3px, 0.31248vw, 12px);
+  margin-bottom: clamp(7.5px, 0.7812vw, 30px);
+  padding-left: clamp(20px, 2.0832vw, 80px);
+  padding-right: clamp(20px, 2.0832vw, 80px);
+  font-size: clamp(6px, 0.62496vw, 24px);
+}
+
+.form__input--eye {
+  position: relative;
+  bottom: clamp(23.5px, 2.44776vw, 94px);
+  left: clamp(42.5px, 4.4268vw, 170px);
+}
+
+.container__text__input::placeholder {
+  color: $text;
+  text-align: center;
+  font-size: clamp(6px, 0.62496vw, 24px);
+  font-weight: 400;
+}
+
+.container__text__error {
+  color: red;
+  position: relative;
+  bottom: clamp(23.5px, 2.44776vw, 94px);
+}
+
+.container__text__error-em {
+  color: red;
+  position: relative;
+  bottom: clamp(7.5px, 0.7812vw, 30px);
+}
+
+.container__text__button {
+  background-color: $button;
+  border: none;
+  border-radius: clamp(3px, 0.31248vw, 12px);
+  font-size: clamp(5.5px, 0.5728800000000001vw, 22px);
+}
+
+.container__text__foot {
+  margin-left: clamp(5px, 0.5208vw, 20px);
+  font-size: clamp(6.5px, 0.67704vw, 26px);
+}
+
+.container__text__reg {
+  text-decoration: none;
+  color: $white;
+}
+
+.container__text__split {
+  color: $text;
+}
+
+.container__text__reg:hover {
+  text-decoration: underline;
+}
